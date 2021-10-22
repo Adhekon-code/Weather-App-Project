@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/9855ed748f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>WeathApp</title>
+  </head>
+  <body>
+    <h1>What's the weather like in your city?</h1>
+    <div class="container">
+      <form class="search-form" id="search-form">
+
+        <div class="row">
+          <div class="col-6">
+            <input type="search" placeholder="Enter your city" 
+            autofocus="on" 
+            autocomplete="off" 
+            id="city-input"
+            class="form-control shadow-sm" />
+          </div>
+
+          <div class="col-3">
+            <input type="submit" 
+            value="search"
+            class=" form-control btn btn-primary" />
+          </div>
+ 
+
+   <div class="col-3">
+          <button
+            class="btn btn-success w-100"
+            id="current-location-button">
+            Current
+          </button>
+        </div>
+        </div>
+      </form>
+
+      <h2 id="city"></h2>
+
+      <ul>
+            <li id="date"></li>
+            <li id="description"></li>
+            </ul>
+      <div class="row">
+      <div class="col-6">
+        <div class="clearfix"></div>
+        <div class="float-left">
+              <span class="temperature" id="temperature"></span>
+              <span class="units">°C</span>
+       </div>
+     </div>
+      
+<div class="col-6">
+  <ul>
+    <li>Humidity: <span id="humidity"></span>%</li>
+    <li>Wind: <span id="wind"></span> km/h</li>
+    <li>precipitation: <span id="precipitation"></span>%</li>
+  </ul>
+</div>
+<div class="row">
+  <div class="card" style="width: 6rem;">
+    <div class="card-body">
+      <h5 class="card-title">Tue</h5>
+      <p class="card-text"><i class="fas fa-sun"></i></p>
+      <h6 class="card-subtitle mb-2 text-muted">12°C/22°C</h6>
+    </div>
+  </div>
+
+  <div class="card" style="width: 6rem;">
+    <div class="card-body">
+      <h5 class="card-title">Wed</h5>
+      <p class="card-text"><i class="fas fa-sun"></i></p>
+      <h6 class="card-subtitle mb-2 text-muted">11°C/23°C</h6>
+    </div>
+  </div>
+
+  <div class="card" style="width: 6rem;">
+    <div class="card-body">
+      <h5 class="card-title">Thur</h5>
+      <p class="card-text"><i class="fas fa-cloud-rain"></i></p>
+      <h6 class="card-subtitle mb-2 text-muted">9°C/15°C</h6>
+    </div>
+  </div>
+
+  <div class="card" style="width: 6rem;">
+    <div class="card-body">
+      <h5 class="card-title">Fri</h5>
+      <p class="card-text"><i class="fas fa-cloud-sun"></i></p>
+      <h6 class="card-subtitle mb-2 text-muted">26°C/13°C</h6>
+    </div>
+  </div>
+
+  <div class="card" style="width: 6rem;">
+    <div class="card-body">
+      <h5 class="card-title">Sat</h5>
+      <p class="card-text"><i class="fas fa-cloud-rain"></i></p>
+      <h6 class="card-subtitle mb-2 text-muted">9°C/18°C</h6>
+    </div>
+  </div>
+</div>
+</div>
+
+        <script  src="src/index.js"></script>
+        </body>
+    </html>
+    

@@ -1,0 +1,84 @@
+body {
+  background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.container {
+  font-size: 14px;
+  font-family: "Roboto Condensed", sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 30px 40px;
+  border: 1px solid pink;
+  display: block;
+  background: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+}
+.form {
+  background-color: whitesmoke;
+  border: 1px solid #fd7e14;
+  border: radius 20px;
+}
+h1 {
+  color: blue;
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+  line-height: 1.2;
+  text-align: center;
+}
+h2 {
+  color: rgb(75, 77, 209);
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 200;
+  line-height: 1.2;
+  text-align: left;
+}
+h3 {
+  font-size: 40px;
+  margin-bottom: 0 auto;
+  padding: 10px 20px 10px 20px;
+  color: blue;
+}
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+li {
+  color: #7c7c7c;
+  font-size: 16px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+}
+.col-8 {
+  margin-left: 25px;
+  text-align: left;
+}
+.temperature {
+  color: rgb(33, 33, 33);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.units {
+  position: relative;
+  top: -24px;
+}
+.fas {
+  text-align: center;
+  font-size: 40px;
+  color: #7c7c7c;
+  line-height: 2rem;
+}
+.card {
+  background-color: #c3e1ec;
+  color: rgb(49, 87, 214);
+}
+.card-subtitle {
+  color: red;
+}
+.findinput {
+  margin-bottom: 20px;
+}
